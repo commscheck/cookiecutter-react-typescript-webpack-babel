@@ -1,0 +1,7 @@
+{
+  "project_name": "My Project",
+  "package_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "directory_name": "{{ cookiecutter.package_name }}",
+  "private": "true",
+  "license": "UNLICENSED"
+}
